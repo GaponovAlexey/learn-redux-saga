@@ -1,12 +1,11 @@
-import { combineReducers } from "redux";
-
+import { combineReducers } from 'redux'
 
 const test = (state = {}, action) => {
   return state
 }
 
 const reducer = combineReducers({
-  test
+  test,
 })
 
 export default reducer
